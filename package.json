@@ -1,0 +1,34 @@
+{
+  "name": "@aixbt-agent/components",
+  "version": "0.1.0",
+  "description": "Public UI primitives for aixbt apps.",
+  "license": "MIT",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "sideEffects": [
+    "./tokens.css",
+    "./components.css"
+  ],
+  "files": [
+    "src",
+    "tokens.css",
+    "components.css",
+    "avatar.svg",
+    "README.md"
+  ],
+  "exports": {
+    ".": "./src/index.ts",
+    "./tokens.css": "./tokens.css",
+    "./components.css": "./components.css",
+    "./avatar.svg": "./avatar.svg"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "dependencies": {
+    "react-simple-maps": "^3.0.0"
+  }
+}
