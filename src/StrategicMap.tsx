@@ -1,3 +1,9 @@
+/**
+ * @component
+ * description: Interactive world map for highlighted locations, routes, and selection state.
+ * use_when: Visualizing geographic relationships or strategic coverage across regions.
+ */
+
 import React, { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import { ComposableMap, Geographies, Geography, Graticule, Line, Marker, Sphere } from 'react-simple-maps'
 

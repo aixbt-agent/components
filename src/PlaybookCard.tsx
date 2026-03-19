@@ -1,3 +1,9 @@
+/**
+ * @component
+ * description: Scenario card for probability, narrative, trades, and trigger details.
+ * use_when: Presenting a compact strategic playbook or market setup summary.
+ */
+
 import React from 'react'
 
 interface PlaybookCardProps {

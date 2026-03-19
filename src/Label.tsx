@@ -1,3 +1,9 @@
+/**
+ * @component
+ * description: Small uppercase section label for grouped UI content.
+ * use_when: Adding lightweight headings above fields, panels, or metric clusters.
+ */
+
 import React from 'react'
 
 interface LabelProps {

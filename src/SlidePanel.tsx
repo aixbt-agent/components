@@ -1,3 +1,9 @@
+/**
+ * @component
+ * description: Right-side sliding panel for temporary detail or controls.
+ * use_when: Revealing secondary content without replacing the main page context.
+ */
+
 import React from 'react'
 
 interface SlidePanelProps {

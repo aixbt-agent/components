@@ -1,3 +1,9 @@
+/**
+ * @component
+ * description: Minimal loading placeholder bar with the shared skeleton animation.
+ * use_when: Filling space while list rows, cards, or metric values are still loading.
+ */
+
 import React from 'react'
 
 interface SkeletonBarProps {

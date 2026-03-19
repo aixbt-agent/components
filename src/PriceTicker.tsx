@@ -1,3 +1,9 @@
+/**
+ * @component
+ * description: Compact inline strip for displaying a small set of market prices.
+ * use_when: Showing quick price context without introducing a full table or card.
+ */
+
 import React from 'react'
 
 interface TickerItem {

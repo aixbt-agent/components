@@ -1,3 +1,9 @@
+/**
+ * @component
+ * description: Compact rounded badge for short status or category labels.
+ * use_when: Highlighting a small piece of state without taking full row space.
+ */
+
 import React from 'react'
 
 interface BadgeProps {

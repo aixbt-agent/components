@@ -1,3 +1,9 @@
+/**
+ * @component
+ * description: Collapsible list that reveals one section at a time.
+ * use_when: Showing compact FAQ, detail, or grouped content blocks in limited space.
+ */
+
 import React, { useState } from 'react'
 
 interface AccordionItem {

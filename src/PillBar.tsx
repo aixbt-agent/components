@@ -1,3 +1,9 @@
+/**
+ * @component
+ * description: Responsive row for pill controls with mobile horizontal overflow handling.
+ * use_when: Laying out many compact filters or toggles in a tight horizontal space.
+ */
+
 import React, { useId } from 'react'
 import { useIsMobile } from './hooks/useIsMobile'
 

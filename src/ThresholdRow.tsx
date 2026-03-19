@@ -1,3 +1,9 @@
+/**
+ * @component
+ * description: Two-column label and value row for limits, metrics, or thresholds.
+ * use_when: Listing compact numeric reference points inside a panel or card.
+ */
+
 import React from 'react'
 
 interface ThresholdRowProps {

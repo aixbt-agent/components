@@ -1,3 +1,9 @@
+/**
+ * @component
+ * description: Full-width tab navigation bar with a simple active indicator.
+ * use_when: Switching between a small number of top-level app views.
+ */
+
 import React from 'react'
 
 interface TabBarProps {

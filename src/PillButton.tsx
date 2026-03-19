@@ -1,3 +1,9 @@
+/**
+ * @component
+ * description: Rounded toggle-style button for small actions and stateful filters.
+ * use_when: Building tab, filter, or mode switch controls with compact affordances.
+ */
+
 import React from 'react'
 
 interface PillButtonProps {

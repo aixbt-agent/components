@@ -1,3 +1,9 @@
+/**
+ * @component
+ * description: Standard surfaced container with shared padding and border treatment.
+ * use_when: Wrapping content that should read as a distinct card or panel.
+ */
+
 import React from 'react'
 
 interface PanelProps {

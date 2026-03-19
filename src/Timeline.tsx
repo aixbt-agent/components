@@ -1,3 +1,9 @@
+/**
+ * @component
+ * description: Filterable event timeline with grouped dates and expandable details.
+ * use_when: Showing recent activity, news, or historical events in chronological order.
+ */
+
 import React, { useState } from 'react'
 import { PillButton } from './PillButton'
 import { SkeletonBar } from './SkeletonBar'
